@@ -2,14 +2,7 @@ FROM python
 
 WORKDIR /app
 
-RUN pip install Pillow
-
-RUN pip install aiogram
-
-RUN pip install torchvision
-
-RUN pip install translate
-
+RUN requierements.txt
 
 COPY . .
 

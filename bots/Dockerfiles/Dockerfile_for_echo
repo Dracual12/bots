@@ -2,7 +2,7 @@ FROM python
 
 WORKDIR /app
 
-RUN pip install aiogram
+RUN requierements.txt
 
 COPY . .
 

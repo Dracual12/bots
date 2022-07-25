@@ -1,0 +1,4 @@
+aiogram
+torchvision
+translate
+Pillow

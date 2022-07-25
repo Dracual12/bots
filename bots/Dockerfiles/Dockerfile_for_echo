@@ -1,9 +1,0 @@
-FROM python
-
-WORKDIR /app
-
-RUN requierements.txt
-
-COPY . .
-
-CMD ["python", "bot_xs.py"]

@@ -1,4 +1,0 @@
-pip install aiogram
-pip install torchvision
-pip install translate
-pip install Pillow
